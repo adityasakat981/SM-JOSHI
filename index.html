@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  
+    
+</head>
+<style>
+    @media screen and (min-width:1200px) {
+*{
+
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.top-images{
+        width: 11%;
+        height: auto;
+        margin-right:-15px;
+    border-radius:100%;
+        
+}
+
+        
+        
+
+.right-images{
+
+    width: 11%;
+    height: auto;
+    position: absolute;
+    right:1%;
+    border-radius: 100%;
+    transform: translate(-30%,-30);
+    
+}
+
+
+        .bottom-images{
+            position: absolute;
+            border-radius: 100%;
+    top: 37%;
+    left:8%;
+    transform: translate(55%,-10%);
+    height: auto;
+    width:5%;
+        }
+
+        h1{
+            color: blue;
+            margin-top:-200px;
+        text-align: center;
+            font-size: 3vw;
+        }
+        h2{
+            color: orange;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 3vw;
+        }
+        h3{
+            color: blue;
+            margin: 1px;
+            text-align: center;
+            font-size: 3vw;
+        }
+        h4{
+            color: red;
+            margin: 10px;
+            margin-right: 5px;
+            text-align: center;
+            font-size: 1.6vw;
+        }
+        h5{
+            color: purple;
+            margin-right: 5px;
+            text-align: center;
+            font-size: 2.6vw;
+        }
+        marquee{
+            font-size: 50px;
+        margin: 30px;
+        color: blue;
+    }
+
+    .navbar{
+        margin:10px;
+    border-radius:20px;
+    height: 15px;
+    background-color:red;
+    display: flex;
+
+
+    float:center;
+    list-style:none;
+    
+    color:white;
+    padding: 40px 38px;
+    text-decoration: none;
+
+
+    }
+    .navbar a{
+        
+        font-size: 35px;
+        margin-left: 5%;
+        margin-top:-35px;
+    border-radius:20px;
+    height: 40px;
+    background-color:red;
+    display: flex;
+        padding: 10px 20px;
+        color: black;
+    }
+    .navbar a:hover{
+        color:blue;
+    }
+    
+    #sli{
+        width: 250%;
+        height: 600px;
+    }
+
+    .slideshow-container {
+  
+        margin-top: -10px;
+        padding: 0px;
+        
+      max-width: 600px;
+      position: relative;
+      
+    }
+  
+}
+
+    @media screen and (max-width:400px) {
+        
+*{
+
+    margin: 0;
+        padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+    .top-images{
+        width: 16%;
+        height: auto;
+        margin-left:0px;
+    border-radius:px;
+    margin:0;
+    margin-top:0%;
+    padding:0px;
+        }
+
+        
+        
+
+.right-images{
+
+    width: 16%;
+    height: auto;
+    position: absolute;
+    top:0%;
+    right:-1%;
+    transform: translate(-30%,-30);
+    
+}
+
+
+        .bottom-images{
+            position: absolute;
+    top: 15%;
+    left:8%;
+    transform: translate(-30%,-50);
+    border-radius: 80%;
+    height: auto;
+    width:8%;
+        }
+        marquee{
+            font-size: 20px;
+        margin: 30px;
+        color: blue;
+    }
+    .paragrap{
+        font-size: 8vw;
+    
+    }
+ 
+
+        h1{
+            color: blue;
+            margin-top: -80px;
+        text-align: center;
+            font-size: 3vw;
+        }
+        h2{
+            color: orange;
+            margin: 4px;
+            text-align: center;
+            font-size: 3vw;
+        }
+        h3{
+            color: blue;
+            margin: 2px;
+            text-align: center;
+            font-size: 3vw;
+        }
+        h4{
+            color: red;
+            margin: 10px;
+            margin-right: 5px;
+            text-align: center;
+            font-size: 1.6vw;
+        }
+        h5{
+            color: purple;
+            margin: 10px;
+            margin-right: 10px;
+            text-align: center;
+            font-size: 2.6vw;
+        }
+        marquee{
+        margin: 5px;
+    }
+
+    .navbar{
+        margin:0px;
+    border-radius:20px;
+    height: 8px;
+    background-color:red;
+    display: flex;
+
+
+    float:center;
+    list-style:none;
+    
+    color:white;
+    padding: 20px 28px;
+    text-decoration: none;
+
+
+    }
+    .navbar a{
+        text-decoration-line: none;
+        font-size: 9px;
+        margin-left: -14px;
+        margin-top:-5px;
+    border-radius:10px;
+    height: 10px;
+    background-color:red;
+    display: flex;
+        padding: 1px 25px;
+        color: black;
+    
+    }
+    a:hover{
+        background-color: rgb(16, 117, 126);
+    }
+
+    
+    #sli{
+        width: 100%;
+        height: 300px;
+    }
+    .slideshow-container {
+  
+        margin-top: -10px;
+        padding: 0px;
+        
+      max-width: 600px;
+      position: relative;
+      
+    }
+
+    h6{
+        text-align: center;
+        color: red;
+        margin: 20px;
+    }
+
+    .recruiters{
+        margin: 30px;
+        
+        width: 90%;
+        
+    }
+    .lastimg{
+
+        width: 90%;
+        height: 100px;
+
+
+    }
+    }
+</style>
+
+<header>
+    <head>
+        
+
+       <img  class="top-images" src="right-img.png">
+       
+       <img  class="right-images" src="guruji.png">
+
+       <img  class="bottom-images" src="tree.png">
+
+       <div class="paragrap">
+        <h1> Education Through Self-Help is Our Motto"-Karmaveer</h1>
+        <h2>Rayat Shikshan Sanstha's</h2>
+        <h3>ARTS|SCIENCE|COMMERCE|</h3>
+        <h4>(Re-Accredited by NAAC with 'A' Grade with CGPA of 3.09)
+        <br>(Affilated to Savitribai Phule Pune University,Pune I.D.No.PU/PN/SC/069/1986(Estd.1986)</h4>
+        <h5> Princicpal-Dr.GAIKWAD NANASAHEB SURYABHAN M.Sc.Ph.D.</h5>
+      </div>
+        <marquee> S.M JOSHI COLLEGE, HADAPSAR,PUNE-28</marquee>
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="Registeration.html">Registration</a>
+            <a href="http://localhost/Project_present_26_date/form.php">Admission procudure</a>
+            <a href="CONTECT_US.html">Contact US</a>
+            <a href="C:\xampp\htdocs\Project_present_26_date\more_Info.html">About</a>
+          </nav>
+
+<br>
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+
+  <img id="sli" src="dipart1.png">
+ 
+</div>
+
+<div class="mySlides">
+  
+  <img id="sli" src="EVENT_clg1.png">
+ 
+</div>
+
+<div class="mySlides">
+
+  <img id="sli" src="smjimg3.png" >
+
+</div>
+
+<div class="mySlides">
+        <img id="sli" src="smjimage1.png">
+  </div>
+
+  <div class="mySlides">
+    
+    <img id="sli" src="smjimage51.png">
+    
+  </div>
+
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      </div>
+      
+      <style>
+        #firstmarq{
+            background-color: red;
+            margin-right: -900px;
+
+        }
+      </style>
+
+ <marquee id="firstmarq" style="color:blue;">
+
+        बुधवार , दि. १९ जानेवारी २०२२ रोजी एस. एम. जोशी महाविद्यालय आणि पुणे महानगर पालिका यांच्या संयूक्त विद्यमाने महाविद्यालयीन विद्यार्थी साठी कोविड -१९ लसीकरण शिबिर साजरे करण्यात आले .
+        
+        मंगळवार , दि. २५ जानेवारी २०२२ रोजी एस. एम. जोशी महाविद्यालया मध्ये मा. प्राचार्य डॉ. चंद्रकांत खिलारे साहेब यांच्या अध्यक्षतेखाली १२ वा राष्ट्रीय मतदार दिवस ( National Voter Day) साजरा करण्यात आला .
+        
+        International conference on new horizons of nanoscience and energy resources(NHNER-2022)
+        
+        R & D Cell and Department of Commerce organises 5 days online workshop on Research Methodology Date 1 July 2021
+        
+        International Conference on “Fungal Diversity and its Novel Applications” (FDNA-2022) 9th April 2022.
+        
+        Department of Botany in association with IQAc conference,seminar,workshop organised in 2020-21
+        
+        “Swatantryacha amrut mohotsavnimitta smaran krantiviranche and SPPU dindi sohala inauguration program” on the 23rd June 2022 (Thursday) at Savitribai Phule Pune University Ganesh Khind Road.
+        
+        “Hadapsar Police Station for Sant Shreshtha Dyaneshwar Mauli and Jagadguru Sant Tukaram Maharaj Palkhi Sohala on Friday on 24 June 2022.
+        
+        NSS, Department of Botany in association with State Bank of India performed in campus plantation activity on Wednesday 1 st July 2022.
+        
+        One Day Programme on "Solid Waste Management" in college Campus dated 10/09/2022.
+        
+        NSS and Campus Beautification committee jointly organised Plantation drive carried by NSS volunteers and College students in college Campus dated 17/09/2022.
+        
+        कर्मवीर जयंती सप्ताह निमित्त विविध स्पर्धांचे आयोजन दिनांक २२ ते २७ सप्टेंबर् २०२२
+        
+        On the occasion of 135th Birth Anniversary of Karmaveer Bhaurao Patil, NSS department Organised Cleanliness Activity in college Campus on 22/09/2022.
+        
+        NSS Day celebration by performing Street Play ( Pathanatya ) 24/09/2022 E- Waste Management.
+        
+        Under Vasundhara Green Campus Intiative Plantation program by NSS department on 28/09/2022
+        
+        Date : 1-10-2022 - Department of Zoology organization of Wildlife week
+        
+        दिनांक १५/१०/२०२२ - वाचन प्रेरणा दिन कार्यक्रम पत्रिका
+        
+        Date : 20-10-2022 - CRACKERS FREE DIWALI PLADGE PROGRAM
+        
+        Celebration of National Unity Day 31/10/2022
+        
+        Microbiology Awareness Programme Date: 22nd November 2021
+        
+        Date : 22-11-2022 - Inter-College level Judo Competition
+        
+        Date : 19-11-2022 - NSS Regular Cleaning activity
+        
+        Date:24/11/2022 NSS department River Sustainability Pledge
+        
+        Date : 26-11-2022 - Constitution Day Celebration
+        </marquee>
+
+        <br>
+ 
+        <style>
+            .recruiters{
+              
+                margin-right: -900px;
+                padding-left: 150px;
+                
+
+            }
+            .ower{
+                margin-top: 100px;
+               text-align: center;
+                font-size: 25px;
+                color: rgb(30, 189, 99);
+
+            }
+        </style>
+        <h6 class="ower"> Our Major Recruiters:</h6>
+
+  
+        <div class="recruiters">
+<marquee>
+
+  
+    <img  src="bosch_image.png"  height="200px">
+  
+
+    <img  src="CDAC_.png" height="200px">
+   
+      <img  src="foxtin_image1.png" height="200px">
+    
+      <img src="mckl.png" height="200px">
+    </div>
+    
+    
+</marquee>
+
+
+<br>
+<br>
+<br>
+
+
+<div class="lastimg">
+<img src="clglastimg.png" alt="" width="1200px" height="600px">
+
+</div>
+
+<br>
+<br>
+<br>
+
+<footer class="footernav">
+    <a href="#">Home</a>
+    <a href="Registeration.html">Registration</a>
+    <a href="#">Admission procudure</a>
+    <a href="CONTECT_US.html">Contact US</a>
+  
+</footer>
+
+<style>
+   .footernav {
+    font-size: 25px;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+   }
+   .footernav a{
+    color: blue;
+    padding: 20px;
+    padding-left: 120px;
+    background-color: black;
+   }
+
+
+</style>
+
+
+<script>
+
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); 
+    }
+    </script>
+    
+</head>
+
+</header>
+<body>
+    
+</body>
+</html>

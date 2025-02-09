@@ -1,0 +1,139 @@
+<html>
+    
+<head> 
+   <!--  <link rel="stylesheet" href="Contect_style.css">
+-->
+
+
+    <img class="imges" src="img.png">
+
+    <style> 
+
+*{
+  
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+      .imges{
+        width: 100%;
+        height: 500px;
+
+      }
+
+      label{
+    width: 150px;
+    display: inline-block;
+    margin: 12px;
+}
+
+.contect-us{
+
+    text-align: center;    
+    border-radius: 10%;
+    background:rgb(26, 61, 132);
+    color: white;
+    width: 400px;
+    padding: 25px;
+    margin-left: 300px;
+    margin-top: 200px;
+
+
+}
+footer{
+margin-top: 100px;
+  background-color: rgb(64, 15, 77);
+}
+.textes,h6{
+  text-align: center;
+  
+  color: brown;
+  font-size: 22px;
+  
+}
+h5{
+  
+  font-size: 30px;
+  color: blue;
+  display: inline-flex;
+ 
+
+  }
+  textarea{
+  
+    font-size: 10px;
+  }
+  label{
+    text-align: center;
+  }
+  #btn{
+
+    font-size: 20px;
+    background-color: black;
+    color: white;
+
+  }
+  </style>
+</head>
+        <form action="Contect_US1.php" method="post">
+
+          <body>
+
+            <div class="contect-us">
+              <h2 style="color: red;">Login page </h2>
+
+              <from>
+
+              
+               <label>Enter your Name:</label>
+               <input type="text" placeholder="Enter your Name"><br>
+
+
+     <label>Enter Gmail Id:</label>
+     <input type="text" placeholder="Email ID"><br>
+     
+    <label> Enter your password:</label>
+      
+      <input type="password" placeholder="password"><br><br>
+        
+           <label>Comment Box:-</label>
+        
+          <textarea placeholder="Enter your Comments" row="auto" cols="auto"></textarea><br><br>
+       
+          <a href="contect_us_information.html"> 
+            
+            <input type="button" id="submit" value="send Information">
+            </a>
+
+            <input type="Reset" id="Reset" value="Reset Now"/>
+          </div>
+          </form>
+          <script>
+            
+          function myfun(){
+            alert("Your Message is send");
+          }
+          </script>
+      </body>
+      <footer>
+        <div class="textes">
+<h5>S.M.JOSHI COLLEGE
+  MALWADI HADAPSAR TA: PUNE (CORPORATION AREA)
+  DIST: PUNE PINCODE: 411028
+  </h5>
+  <br>
+  <label for="message">Message BOX</label>
+  <br>
+  <textarea name="name"></textarea>
+  <br>
+  <button id="btn" onclick="myfun()">Sent</button>
+  <h6>
+  PRINCIPAL: DR.CHANDRAKANT J. KHILARE <br>
+  PHONE:020-26999001 <br>
+  EMAIL: rayatsmjoshicollege@rediffmail.com<br>
+  smjoshicollege@gmail.com </h6>
+</div>
+
+      </footer>
+    </html>
